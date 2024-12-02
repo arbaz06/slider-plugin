@@ -1,0 +1,111 @@
+  /* Middle Center Alignment */
+  .carousel-caption.middle-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Middle Left Alignment */
+.carousel-caption.middle-left {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    /* text-align: left; */
+    padding-right: 40%;
+}
+
+/* Middle Right Alignment */
+.carousel-caption.middle-right {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    /* text-align: right; */
+    padding-left: 40%;
+} 
+
+
+
+@media (max-width: 768px) {
+   
+    .carousel-caption.middle-center {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        padding: 10px; 
+        width: inherit;
+    }
+
+
+    .carousel-caption.middle-left {
+        position: absolute;
+        top: 50%;
+        left: 10px; 
+        transform: translateY(-50%);
+        text-align: left;
+        padding-right: 10%; 
+    }
+
+
+    .carousel-caption.middle-right {
+        position: absolute;
+        top: 50%;
+        right: 10px; 
+        transform: translateY(-50%);
+        text-align: right;
+        padding-left: 10%; 
+    }
+
+    
+    .carousel-caption h1,
+    .carousel-caption p {
+        font-size: 16px; 
+    }
+}
+
+@media (max-width: 480px) {
+   
+    .carousel-caption.middle-center {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        padding: 5px; 
+        width: inherit;
+    }
+
+   
+    .carousel-caption.middle-left {
+        position: absolute;
+        top: 50%;
+        left: 5px; 
+        transform: translateY(-50%);
+        text-align: left;
+        padding-right: 5%; 
+    }
+
+   
+    .carousel-caption.middle-right {
+        position: absolute;
+        top: 50%;
+        right: 5px; 
+        transform: translateY(-50%);
+        text-align: right;
+        padding-left: 5%; 
+    }
+
+   
+    .carousel-caption h1,
+    .carousel-caption p {
+        font-size: 14px; 
+    }
+}
+.btn-primary{
+    border: none;
+}
